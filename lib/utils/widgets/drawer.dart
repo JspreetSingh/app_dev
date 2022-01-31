@@ -51,6 +51,19 @@ class Mydrawer extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
+            ),
+            ListTile(
+              leading: Icon(
+                CupertinoIcons.mail,
+                color: Colors.white,
+              ),
+              title: Text(
+                "E-Mail",
+                textScaleFactor: 1.2,
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             )
           ],
         ),
